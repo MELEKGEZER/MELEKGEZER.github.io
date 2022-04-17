@@ -1,1 +1,175 @@
-merhaba dünya
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" >
+        <title>WEBSİTEM</title>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" href="style.css"
+
+    </head>
+    <body>
+        <!--headerin başlangıcı-->
+        <header id="header">
+            <div class="header">
+                <div class="container">
+                    <div class="header-navbar">
+                        <div class="header-logo">
+                            <h2>MERHABA</h2>
+                        </div>
+                        <div class="header-menu">
+                            <ul>
+                                <li> <a href="#">ANASAYFA</a></li>
+                                <li> <a href="#"></a>hakkımda</li>
+                                <li> <a href="#"></a>keşfet</li>
+                                <li> <a href="#"></a>iletişim</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-text">
+                        <h1>benim dünyama yolculuk</h1>
+                        <h3> kendimden ve çalışmalarımdan bahsedeceğim...</h3>
+                       
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--hakkındanınbaşlangıcı-->
+        <section id="hakkımda">
+            <div class="hakkımda">
+                <div class="container">
+                    <div class="hakkımda-title">
+                        <h2>HAKKIMDA</h2>
+                    </div>
+                    <div class="hakkımda-content">
+                         <div class="hakkımda-img anime-left">
+                            <img src="images/ben.jpeg" alt="">
+                        </div>
+                        <div class="hakkımda-text anime-right">
+                            <h4>hikayem... </h4>
+                            <p>Ben Melek Gezer. 2001 yılında Van'da doğdum. Lise öğrenimimi Van- Özen Adalı anadolu lisesinde tamamlayarak İnönü üniversitesi yazılım mühendisliği bölümünü kazandım. Buraya ilgili olduğum konular hakkında yaptığım çalışmaları ve gelişmeleri kaydedeceğim.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+             </section>
+             <section id="portfolio">
+                 <div class="portfolio">
+                     <div class="portfolio-item ani1">
+                         <img src="images/1.resmim.jpg" alt="">
+                         <div class="overlay"> 
+                            <img src="images/code-solid.svg">
+                        </div>
+                     </div>
+                     <div class="portfolio-item ani2">
+                        <img src="images/3.resmim.jpg" alt="">
+                        <div class="overlay"> 
+                            <img src="images/code-solid.svg">
+
+                        </div>
+                    </div>
+                    <div class="portfolio-item ani3">
+                        <img src="images/2.resmim.png" alt="">
+                        <div class="overlay"> 
+                            <img src="images/code-solid.svg">
+                    </div>
+                    </div>
+
+                    <div class="portfolio-item ani4">
+                        <img src="images/4.resmim.jpeg" alt="">
+                        <div class="overlay"> 
+                            <img src="images/code-solid.svg">
+                    </div>
+                    </div>
+                    </div>   
+                </section>
+                <section id="hakkımda">
+                    <div class="hakkımda">
+                        <div class="container">
+                            <div class="hakkımda-title">
+                                <h2>KEŞFET</h2>
+                            </div>
+                            <div class="hakkımda-content">
+                                 <div class="hakkımda-img anime-left">
+                                    <img src="images/calısmalar.jpeg" alt="">
+                                </div>
+                                <div class="hakkımda-text anime-right">
+                                    <h4>çalısmalarım...</h4>
+                                    <p> yaptığım çalışmalar bu kısma eklenecektir. </p>
+                                </div>
+        
+                            </div>
+                        </div>
+                    </div>
+        
+        
+        
+                     </section>
+                     <section id="contact">
+                         <div class="contact">
+                             <div class="container">
+                                 <div class="page-tittle">
+                                     <h2>İLETİŞİM</h2>
+                                 </div>
+                                 <div class="contact-content">
+                                     <div class="contact-item anime-left">
+                                        <img src="images/telefon2.png" alt="">
+                                        <p>0212 000 0000</p>
+                                        <div class="contact-item anime-right"></div>
+                                            <img src="images/mail.png" alt="">
+                                           <p>melekgezer99@gmail.com</p>
+   
+                                        </div>
+                                 </div>
+                             </div>
+                           </div>
+                
+                     </section>
+                     <footer id="footer">
+                         <div class="footer">
+                             <div class="footer-content">
+                                 <div clas="page-tittle">
+                                     <h2>HAKKIMIZDA</h2>
+                                 </div>
+                                 <div class="footer-copyright">
+                                     <p>Takipte kalmaya devam edin.</p>
+                                 </div>
+                             </div>
+                         </div>
+                     </footer>
+                     <script>
+                         window.sr=ScrollReveal();
+
+
+                         sr.reveal('.anime-left',{
+                           origin:'left',
+                             duration:1000,
+                             distance:'25rem',
+                             delay:300
+                         });
+                         sr.reveal('.anime-right',{
+                            origin:'right',
+                             duration:1000,
+                             distance:'25rem',
+                             delay:600
+                         });
+
+                     </script>
+                     <script>
+                      ScrollReveal().reveal('.ani1',{delay:300});
+                      ScrollReveal().reveal('.ani2',{delay:900});
+                      ScrollReveal().reveal('.ani3',{delay:1500});
+                      ScrollReveal().reveal('.ani4',{delay:2100});
+                        
+                </script>
+
+    </body>
+
+</html>
