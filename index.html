@@ -362,7 +362,7 @@
 			<script>
 				function indir() {
 				  var cvs = [
-					{ "Name": "Mehmet Alperen Ataner,\nTürkçe,Ingilizce(B2)\nC,Java,HTML5 CSS3,JS\nAdiyaman'da 2002 yilinda dünyaya geldim.\nLiseyi Altinsehir Anadolu Lisesinde bitirdikten sonra\nInönü Üniversitesi Yazilim Mühendisligi\nbölümünü kazandim.\nHerhangi bir is deneyimim yok.Henüz 1.sinif\noldugum icin staj deneyimim de olmadi. "},
+					{ "Name": "Melek Gezer\n25.07.2001\nInonu Universitesi\nSiber Güvenlik 101 programi\nAPI Bankaciligi \n Açik Bankacilik 101 etkinligi\nMobil Gelistirme 101 etkinligi\n Ag Teknolojileri 101 etkinligi\n Tosla ve E-para 101 etkinligi\n "},
 					
 			  
 				  ];
@@ -370,7 +370,7 @@
 				  var doc = new jsPDF();
 				  cvs.forEach(function (cv, i) {
 					doc.text(50, 10 + (i * 10),
-					  "Adi soyadi, diller ve bildigi programlama dilleri :\n" + cv.Name);
+					  "Adi soyadi, dogum tarihi, okudugu bolum, sertifikalar:  :\n" + cv.Name);
 				  });
 				  doc.save('CV.pdf');
 				}
